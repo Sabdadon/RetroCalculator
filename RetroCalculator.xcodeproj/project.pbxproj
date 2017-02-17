@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E25A26F1E57104F007CE346 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E25A26E1E57104F007CE346 /* Minecraft.ttf */; };
+		0E25A2711E571549007CE346 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E25A2701E571549007CE346 /* btn.wav */; };
 		0E5B25A41E530C5200B8144E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B25A31E530C5200B8144E /* AppDelegate.swift */; };
 		0E5B25A61E530C5200B8144E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B25A51E530C5200B8144E /* ViewController.swift */; };
 		0E5B25A91E530C5200B8144E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E5B25A71E530C5200B8144E /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		0E25A26E1E57104F007CE346 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		0E25A2701E571549007CE346 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 		0E5B25A01E530C5200B8144E /* RetroCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E5B25A31E530C5200B8144E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E5B25A51E530C5200B8144E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +45,7 @@
 				0E5B25A21E530C5200B8144E /* RetroCalculator */,
 				0E5B25A11E530C5200B8144E /* Products */,
 				0E25A26E1E57104F007CE346 /* Minecraft.ttf */,
+				0E25A2701E571549007CE346 /* btn.wav */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E25A2711E571549007CE346 /* btn.wav in Resources */,
 				0E5B25AE1E530C5200B8144E /* LaunchScreen.storyboard in Resources */,
 				0E5B25AB1E530C5200B8144E /* Assets.xcassets in Resources */,
 				0E25A26F1E57104F007CE346 /* Minecraft.ttf in Resources */,
