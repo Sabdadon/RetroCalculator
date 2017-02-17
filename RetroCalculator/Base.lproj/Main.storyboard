@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -8,6 +8,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Minecraft.ttf">
+            <string>Minecraft</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -18,34 +23,34 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space-bg" translatesAutoresizingMaskIntoConstraints="NO" id="qHk-iN-L0o">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="juZ-ux-KHR">
-                                <rect key="frame" x="0.0" y="471" width="320" height="97"/>
+                                <rect key="frame" x="0.0" y="570" width="375" height="97"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="97" id="Sp7-9X-U3p"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="counter" translatesAutoresizingMaskIntoConstraints="NO" id="nGz-F0-Q4C">
-                                <rect key="frame" x="25" y="-1" width="270" height="82"/>
+                                <rect key="frame" x="53" y="49" width="270" height="82"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="272" id="IF3-HJ-Uoo"/>
                                     <constraint firstAttribute="height" constant="82" id="wsJ-1R-6pI"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backpanel" translatesAutoresizingMaskIntoConstraints="NO" id="u5M-pZ-TKS">
-                                <rect key="frame" x="0.0" y="97" width="320" height="374"/>
+                                <rect key="frame" x="28" y="147" width="320" height="374"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="374" id="2up-bw-EYC"/>
                                     <constraint firstAttribute="width" constant="320" id="GUS-UQ-idf"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="lrr-pL-wzb">
-                                <rect key="frame" x="52" y="119" width="216" height="330"/>
+                                <rect key="frame" x="80" y="169" width="216" height="330"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="dB1-hc-ZdX">
                                         <rect key="frame" x="0.0" y="0.0" width="216" height="58"/>
@@ -200,7 +205,7 @@
                                     <constraint firstAttribute="height" constant="21" id="dIc-LX-pv6"/>
                                     <constraint firstAttribute="width" constant="230" id="syd-aY-LL0"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
